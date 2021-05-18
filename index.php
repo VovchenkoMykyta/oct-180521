@@ -8,3 +8,6 @@ spl_autoload_register(function ($className){
     }
     return false;
 });
+
+$page = new FrontPage('content_page.php');
+$page->render();
